@@ -1,0 +1,30 @@
+@mixin pink-button() {
+    flex-shrink: 0;
+    padding: 15px 36px;
+    border-radius: 24px;
+    background-color: $dark-pink;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: $white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        background-color: $charm-pink;
+    }
+}
+
+@mixin input-button() {
+    padding: 15px;
+    border: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    flex-grow: 1;
+}
